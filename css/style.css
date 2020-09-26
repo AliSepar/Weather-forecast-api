@@ -1,0 +1,85 @@
+/* add a font family poppins */
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.bg{
+    background:url("../img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(30px);
+    -webkit-filter: blur(15px);
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.widget{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background: rgba(12, 10, 10, 0.534);
+    /* 299,299,299 */
+}
+.widget .left{
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+.widget .right{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    color: #fff;
+    margin: 50px 0;
+}
+.icon{
+    width: 75%;
+    margin-bottom: -30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.weather-status{
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+.widget .right .city{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px 1px 5px #707070;
+}
+.widget .right .degree{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px 1px 5px #707070;
+}
+.widget .bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.widget .bottom div{
+    margin: 5px 18px 5px 18px;
+    text-align: center;
+    line-height: 100%;
+    font-size: 0.90em;
+    text-shadow: 1px 1px 5px #707070;
+}
+.bottom div span{
+    display: block;
+}
